@@ -1,0 +1,40 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Build directories (sometimes inside source folders) ###
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
